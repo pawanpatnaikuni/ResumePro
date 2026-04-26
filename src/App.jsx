@@ -59,10 +59,14 @@ const styles = {
     margin: 0,
     padding: 0,
 
-    /* 🎨 Background */
+    /* 🎨 UPDATED BACKGROUND */
     background: isDark
       ? "linear-gradient(135deg, #0f172a, #1e293b, #312e81)"
-      : "linear-gradient(180deg, #f8f6f1, #f1ece4)",
+      : `
+        radial-gradient(circle at top left, #dbeafe, transparent 40%),
+        radial-gradient(circle at bottom right, #c7dbff, transparent 40%),
+        linear-gradient(135deg, #e0ecff, #c7dbff, #dbeafe)
+      `,
 
     color: isDark ? "#ffffff" : "#1f2937",
 
@@ -72,8 +76,8 @@ const styles = {
   }),
 
   main: {
-    flex: 1, // 🔥 THIS FIXES EMPTY SPACE ISSUE
-    paddingTop: "80px", // space for navbar
+    flex: 1,
+    paddingTop: "80px",
   },
 };
 
