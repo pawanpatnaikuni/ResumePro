@@ -1,16 +1,31 @@
-# React + Vite
+# 🚀 ResumePro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An all-in-one career toolkit to help job seekers build better resumes, improve ATS scores, and prepare for interviews.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📊 ATS Score Analyzer
+- 📄 Resume Templates
+- ✉️ Cover Letter Generator
+- 🧾 Resume Bullet Generator
+- 📉 PDF Compression Tool
+- 💼 Job Finder
+- 🎯 Interview Questions
+- 🧠 Skill Testing Module
+- 🎓 Fresher Resume Builder
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Frontend: React (Vite)
+- Styling: Tailwind CSS
+- Backend: (add when ready)
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
+not yet hosted. WIP
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+
+
+## 📌 About
+
+ResumePro is designed to act as a one-stop platform for job seekers, combining multiple tools into a single streamlined experience.
