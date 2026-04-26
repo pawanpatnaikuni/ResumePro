@@ -1,0 +1,56 @@
+/* 🔥 FULL RESET (removes white border issue) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure full height layout */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Body styling */
+body {
+  /* Modern system font */
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+
+  /* IMPORTANT: no background here */
+  background: transparent;
+
+  /* Prevent side scroll */
+  overflow-x: hidden;
+
+  /* Smooth font rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Root container fix */
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Smooth fade animation (used in Home.jsx) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
