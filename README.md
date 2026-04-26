@@ -17,8 +17,8 @@ An all-in-one career toolkit to help job seekers build better resumes, improve A
 ## 🛠 Tech Stack
 
 - Frontend: React (Vite)
-- Styling: Tailwind CSS
-- Backend: (add when ready)
+- Styling: Custom CSS
+- Backend: (to be added when ready)
 
 ## 🌐 Live Demo
 not yet hosted. WIP
